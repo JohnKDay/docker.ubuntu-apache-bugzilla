@@ -4,6 +4,7 @@ MAINTAINER Jindrich Vimr <jvimr@softeu.com>
 
 ENV SERVER_NAME docker-bugzilla
 
+COPY run_apache.sh /var/www/
 
 # for main web interface:
 EXPOSE 80
